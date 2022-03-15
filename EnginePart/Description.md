@@ -1,11 +1,10 @@
 ### UE中行为树的节点有哪些？
+  ( https://docs.unrealengine.com/4.27/zh-CN/InteractiveExperiences/ArtificialIntelligence/)
   ```
   Selector、Sequence和SimpleParallel
   简单地说Selector就像if-else if语句，从左往右执行一系列节点，有一个节点执行成功就不往下执行，
   而Sequence是在有节点执行失败时就不往下执行了。
   Selector、Sequence和SimpleParallel属于Composites，类似于编程中的流程控制语句，还有一类节点属于Tasks，是实际执行的动作。
-
-  https://docs.unrealengine.com/4.27/zh-CN/InteractiveExperiences/ArtificialIntelligence/
   ```
   |  节点类型   | 说明  |
   |  ----  | ----  |
