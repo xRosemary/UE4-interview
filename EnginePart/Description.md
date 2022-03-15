@@ -4,6 +4,9 @@
   简单地说Selector就像if-else if语句，从左往右执行一系列节点，有一个节点执行成功就不往下执行，
   而Sequence是在有节点执行失败时就不往下执行了。
   Selector、Sequence和SimpleParallel属于Composites，类似于编程中的流程控制语句，还有一类节点属于Tasks，是实际执行的动作。
+
+  https://docs.unrealengine.com/4.27/zh-CN/InteractiveExperiences/ArtificialIntelligence/
+  ```
   |  节点类型   | 说明  |
   |  ----  | ----  |
   | 合成节点  | 此类节点定义分支的根以及执行该分支的基本规则。 |
@@ -11,9 +14,6 @@
   | 装饰器节点  | 也称为条件。它们连接到另一节点，并决定树中的分支、甚至单个节点能否被执行。 |
   | 服务节点  | 此类节点附接至合成节点，而且只要其分支正在执行，它们就会按照定义的频率执行。它们通常用于检查和更新黑板。它们取代了其他行为树系统中的传统并行节点。 |
   
-  https://docs.unrealengine.com/4.27/zh-CN/InteractiveExperiences/ArtificialIntelligence/
-  ```
-
 ### UE4多人联机模型
   ```
   虚幻引擎使用 客户端-服务器 模型。
